@@ -10,7 +10,14 @@
  5. Installed Raspberry pi Imager to install the Operating system Raspberry Pi OS 32-bit Bullseye version into the MicroSD card using my Mac.
  6. After OS has been installed to my MicroSD I connected that back to raspberry pi board and I got the first page in my desktop to select the Language and time zone. 
  7. Using $ sudo raspi -config command choose the console auto login option. 
- 8. ![Getting Started].(./Console_auto_login.jpg)
-    ![Getting Started].(Console_auto_login.jpg)
-<img src="Users/anushahegde/Documents/EE522/ee522_Assignment_1/images/Console_auto_login.jpg" alt="Getting started" />
+ 8. <img src="images/  Console_auto_login.jpg" alt="Getting started" />
+ 9. ![Getting started](./images/Console_auto_login.jpg)
+ 10. Now rebooting the board from dekstop menu.
+ 11. Next for setting up the WiFi I used the command $dmesg | more to check all the hardware connected. WiFi was not present. Then using command $ sudo nano /etc/network/interfaces edited the file using instruction given in configuration file by Professor. It did not work. I tried many commands found in internet but couldn't work it. After spending more than an hour I connected the WiFi using desktop GUI. 
+ 12. Changed target name using command $ sudo nano /etc/hosts and changes 127.0.1.1 raspberrypi to 127.0.1.1 ANUSHA0. Then modified the hostname file too. After all these steps save and reboot using $ sudo reboot.
+ 13. Updated the software using $sudo apt-get update followed by command $ sudo apt-get upgrade. After update restart.
+ 14. Using command @ sudo service --status --all checked if the ssh is working. 
+ 15. ![Getting started](./images/Console_auto_login.jpg)
+ 
+
 
