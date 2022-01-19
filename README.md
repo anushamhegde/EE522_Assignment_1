@@ -15,6 +15,6 @@
  10. Next for setting up the WiFi I used the command $dmesg | more to check all the hardware connected. WiFi was not present. Then using command $ sudo nano /etc/network/interfaces edited the file using instruction given in configuration file by Professor. It did not work. I tried many commands found in internet but couldn't work it. After spending more than an hour I connected the WiFi using desktop GUI. 
  11. Changed target name using command $ sudo nano /etc/hosts and changes 127.0.1.1 raspberry pi to 127.0.1.1 ANUSHA0. Then modified the hostname file too. After all these steps save and reboot using $ sudo reboot.
  12. Updated the software using $sudo apt-get update followed by command $ sudo apt-get upgrade. After update restart.
- 13. ![Upgrade image](Upgrade.JPG)
+ 13. ![Upgrade image](./images/Upgrade.JPG)
  14. Using command @ sudo service --status --all checked if the ssh is working. 
- 15. ![Getting started](Working_ssh.JPG)
+ 15. ![Getting started](./images/Working_ssh.JPG)
