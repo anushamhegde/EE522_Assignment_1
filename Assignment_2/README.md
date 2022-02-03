@@ -55,6 +55,7 @@ d. Using 7-Zip : Single threaded benchmark [7-zip ](./images/7-zip.PNG) <br/><br
 multi-thread benchmark [7-zip multi thread ](./images/7-zip-multi_thread.PNG)
 
 12. ### What would be a useful stress test to determine reliability?
+A stress test that would max out specfic component of the system(CPU,GPU,RAM,storage,network card) for prolonged period of time and also monitoring the module being tested (such as performance,temperature etc) would help determining reliablity of componeny. Alternatively we can use stress test which would touch up on all these aspects to  determine reliablity of the overall  board. One such example is S-tui test for CPU testing. 
 
 
 
